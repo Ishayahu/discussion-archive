@@ -1,0 +1,31 @@
+# Tests
+
+## Test 1 - Open archive sections and return [sanity]
+Viewport: desktop
+Covers: main archive navigation, politics section, philosophy section
+Description: Verifies the two main archive branches are publicly navigable.
+Steps:
+1. Open the home page
+2. Open "Политические обсуждения" and return to the home page
+3. Open "Философские обсуждения"
+Expected: Both section pages load and display their respective discussion cards.
+
+## Test 2 - Open philosophy discussion
+Viewport: mobile
+Covers: philosophy navigation, selfhood article, responsive reading
+Description: Verifies the philosophy article is reachable on a mobile viewport.
+Steps:
+1. Open the philosophy section
+2. Open "Где находится «я»?"
+3. Scroll to the section "Бог и слово «есть»"
+Expected: The full selfhood discussion page loads and the theology section is visible.
+
+## Test 3 - Navigate between political audits
+Viewport: desktop
+Covers: politics navigation, audit 01, audit 02, cross-links
+Description: Verifies both political audit pages and their cross-navigation.
+Steps:
+1. Open the politics section
+2. Open Audit 01 and follow the link to Audit 02
+3. Return to the politics section
+Expected: Both audit pages load and navigation returns to the politics index.
