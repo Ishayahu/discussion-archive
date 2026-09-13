@@ -10,15 +10,15 @@ Steps:
 3. Open "Философские обсуждения"
 Expected: Both section pages load and display their respective discussion cards.
 
-## Test 2 - Open philosophy discussion
+## Test 2 - Open both philosophy discussions
 Viewport: mobile
-Covers: philosophy navigation, selfhood article, responsive reading
-Description: Verifies the philosophy article is reachable on a mobile viewport.
+Covers: philosophy navigation, selfhood article, future-self article, responsive reading
+Description: Verifies both philosophy articles are reachable on a mobile viewport.
 Steps:
-1. Open the philosophy section
-2. Open "Где находится «я»?"
-3. Scroll to the section "Бог и слово «есть»"
-Expected: The full selfhood discussion page loads and the theology section is visible.
+1. Open the philosophy section and open "Где находится «я»?", then return to the philosophy section
+2. Open "Что мы должны будущему себе?"
+3. Scroll to the section "Законы Ишаяу во времени" — черновик
+Expected: Both philosophy discussion pages load and the laws section of the future-self discussion is visible.
 
 ## Test 3 - Navigate between political audits
 Viewport: desktop
