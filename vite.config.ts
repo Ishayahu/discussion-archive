@@ -18,6 +18,7 @@ export default defineConfig({
         debate1: resolve(rootDir, 'debate1.html'),
         debate2: resolve(rootDir, 'debate2.html'),
         selfhood: resolve(rootDir, 'selfhood.html'),
+        futureSelf: resolve(rootDir, 'future-self.html'),
       },
       maxParallelFileOps: 128,
     },
