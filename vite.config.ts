@@ -19,6 +19,7 @@ export default defineConfig({
         debate2: resolve(rootDir, 'debate2.html'),
         selfhood: resolve(rootDir, 'selfhood.html'),
         futureSelf: resolve(rootDir, 'future-self.html'),
+        veganEthics: resolve(rootDir, 'vegan-ethics.html'),
       },
       maxParallelFileOps: 128,
     },
