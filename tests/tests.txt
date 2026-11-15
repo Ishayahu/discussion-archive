@@ -29,3 +29,14 @@ Steps:
 2. Open Audit 01 and follow the link to Audit 02
 3. Return to the politics section
 Expected: Both audit pages load and navigation returns to the politics index.
+
+## Test 4 - Open ethics article from philosophy [sanity-link]
+Viewport: mobile
+Covers: vegan ethics article navigation, direct URL production build, long-form reading, return navigation
+Description: Verifies the public ethics discussion is linked, readable, and included in the multipage production output.
+Steps:
+1. Open "Философские обсуждения"
+2. Open "Этическое веганство: где заканчивается логика?"
+3. Scroll to "12. Что мы вправе заключить?" and "Связь с Торой: материал для будущего урока"
+4. Return to philosophy and open the article directly at /vegan-ethics.html
+Expected: Article opens both ways, headline and conclusion render, no AccessDenied or missing route.
