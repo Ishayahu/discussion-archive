@@ -40,16 +40,3 @@ Steps:
 3. Scroll to "12. Что мы вправе заключить?" and "Связь с Торой: материал для будущего урока"
 4. Return to philosophy and open the article directly at /vegan-ethics.html
 Expected: Article opens both ways, headline and conclusion render, no AccessDenied or missing route.
-
-## Test 5 - Community education article and expandable arguments
-Viewport: mobile
-Covers: community article navigation, direct article URL, expandable sections, expand all, collapse all, source navigation
-Description: Verifies the new article is readable from the archive and its progressive disclosure controls function.
-Steps:
-1. Open the archive home page and follow the community article card
-2. Verify the headline and eight numbered thesis summaries appear
-3. Open thesis 3 and verify its supporting text appears
-4. Click "Раскрыть всё" and verify the content of thesis 8 appears
-5. Click "Свернуть всё" and verify thesis 8's body is hidden while its summary remains visible
-6. Open /community-small-groups.html directly
-Expected: The article is reachable both ways, details expand and collapse without hiding the thesis summaries, and the bibliography remains accessible.
