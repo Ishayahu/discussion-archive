@@ -10,7 +10,7 @@ export default defineConfig({
     outDir: process.env.APPDEPLOY_VITE_OUT_DIR || 'dist',
     sourcemap:
       process.env.APPDEPLOY_VITE_SOURCEMAP === 'hidden' ? 'hidden' : false,
-    rolldownOptions: {
+    rollupOptions: {
       input: {
         main: resolve(rootDir, 'index.html'),
         politics: resolve(rootDir, 'politics.html'),
@@ -20,8 +20,8 @@ export default defineConfig({
         selfhood: resolve(rootDir, 'selfhood.html'),
         futureSelf: resolve(rootDir, 'future-self.html'),
         veganEthics: resolve(rootDir, 'vegan-ethics.html'),
-        communitySmallGroups: resolve(rootDir, 'community-small-groups.html'),
       },
+      maxParallelFileOps: 128,
     },
   },
 });
